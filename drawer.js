@@ -1,4 +1,4 @@
-const canvasTag = document.querySelector('canvas')
+const canvasTag = document.getElementById("myCanvas");
 
 canvasTag.width = window.innerWidth * 2
 canvasTag.height = window.innerHeight * 2
